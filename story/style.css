@@ -1,0 +1,44 @@
+body{
+    margin-top: 0;
+}
+.enter{
+    background-image: url(images/enterence.jpeg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    
+    height:1200px;
+    margin: 0;
+}
+.enter h1{
+    color: red;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10%;
+    font-size: 3rem;
+}
+.choose{
+    background-image: linear-gradient(to right, black , silver);
+    height: 60px;
+    display: flex;
+    
+    justify-content: space-around;
+
+}
+.button{
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4e5daf;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.button:hover{
+    opacity: 0.7;
+}
